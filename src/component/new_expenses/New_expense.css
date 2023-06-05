@@ -1,0 +1,74 @@
+.new-expense {
+    background-color: #c1efa0;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    border:#157d22 5px;
+  }
+  
+  
+  #cancel{
+    font: inherit;
+    font-size: large;
+    font-family: cursive;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #184b02;
+    background-color: #157d22;
+    color: white;
+    border-radius: 12px;
+    margin-right: 40px;
+    
+  }
+  #add{
+    font: inherit;
+    font-size: large;
+    font-family: cursive;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #184b02;
+    background-color: #157d22;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+    margin-left: 100px;
+  }
+ /* #submit{
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #40005d;
+    background-color: #40005d;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+    margin-left: 100px;
+
+  }*/
+  #add:hover{
+    background-color: #63d856;
+  }
+  #cancel:hover{
+    background-color: #63d856;
+  }
+  
+  .new-expense button:hover,
+  .new-expense button:active {
+    background-color: #14a153;
+    border-color: #510674;
+  }
+  
+  .new-expense button.alternative {
+    color: #2f0045;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new-expense button.alternative:hover,
+  .new-expense button.alternative:active {
+    background-color: #ddb3f8;
+  }
